@@ -1,0 +1,20 @@
+@import "vars";
+
+.menu {
+  display: flex;
+  margin: 0;
+  list-style: none;
+
+  &__item + &__item {
+    margin-left: 20px;
+  }
+  &__link {
+    font-family: $main-font;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: $accent;
+    text-decoration: none;
+  }
+}

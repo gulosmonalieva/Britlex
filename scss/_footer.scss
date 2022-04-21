@@ -1,0 +1,36 @@
+.footer {
+  position: relative;
+
+  &::before {
+    position: absolute;
+    bottom: 100px;
+    left: 100%;
+    transform: translate(-106.5%);
+    border: 1px solid #c4c4c4;
+    width: 1338px;
+    content: "";
+  }
+  &__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &__menu {
+    display: flex;
+    gap: 30px;
+
+    :first-child {
+      list-style: none;
+    }
+  }
+  &__item {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    /* identical to box height */
+
+    color: #8f95a5;
+  }
+}
