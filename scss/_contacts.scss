@@ -1,9 +1,11 @@
 .contacts {
   padding-top: 290px;
   padding-bottom: 100px;
+
   &__blog {
     display: flex;
     justify-content: center;
+    align-items: center;
     gap: 92px;
   }
   &__right {
