@@ -1,0 +1,30 @@
+@import "vars";
+
+.header {
+  padding: 72px 75px;
+
+  &__inner {
+    display: flex;
+    justify-content: space-between;
+  }
+  &__logo {
+    height: 50px;
+  }
+
+  &__nav-toggler {
+    display: none;
+  }
+  &__block-link {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    text-decoration: none;
+    padding: 17px 57px;
+    color: #000000;
+    border: 2px solid #263238;
+    box-sizing: border-box;
+    border-radius: 5px;
+  }
+}
